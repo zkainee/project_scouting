@@ -3,7 +3,8 @@
     Date: 08-10-2021
     Subject: Website Scouting Jan van Hoof
 */
-@font-face {
+@font-face 
+{
     font-family: Montserrat;
     src: url(/fonts/Montserrat-Regular.ttf);
 }
@@ -11,32 +12,30 @@ body
 {
     font-family: Montserrat;
 }
-ul
+.header
 {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: lightgray;
-}
-li
-{
-    float: left;
-}
-li a 
-{
-    display:block;
-    color:#496cb5;
+    background-color: #F1F1F1;
     text-align: center;
+    padding: 20px;
+}
+.topnav
+{
+    text-align: center;
+}
+.topnav a
+{
+    list-style: none;
+    margin: 0 auto;
+    border-left: 2px solid #3ca0e7;
+    display: inline-block;
     padding: 14px 16px;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
 }
-li a:hover
+.topnav a:hover
 {
-    background-color: lightgray;
-}
-a
-{
-    color:#496cb5;
+    color: #617cb6;
 }
 .scoutingfoto1
 {
@@ -48,14 +47,7 @@ a
     display: block;
     background-size: 1110px 444px;
 }
-#nav_menu>li>a
-{
-    float: center;
-    display: flex;
-    height: 4em;
-    max-width: 7em;
-    align-items: center;
-}
+
 .scoutingfoto1, .scoutingfoto2
 {
     width: 666px;
