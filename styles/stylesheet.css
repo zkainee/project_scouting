@@ -57,6 +57,14 @@ body
     /* Kleur hover over block */
     color: #617cb6;
 }
+.footer
+{
+    position: fixed;
+    text-align: center;
+    background-color: #F1F1F1;
+    padding: 14px;
+    color: black;
+}
 .scoutingfoto1
 {
     display: block;
