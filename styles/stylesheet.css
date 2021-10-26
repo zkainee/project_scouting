@@ -18,6 +18,24 @@ body
     text-align: center;
     padding: 20px;
 }
+.header_background
+{
+    /* URL image*/
+    background-image: url(/images/scouting_background_header.jpg);
+    /*min-height: 380px;*/
+
+    /* Gecentreerd en positie en grootte image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo-image
+{
+    /*width: 46px;
+    height: 46px;*/
+    overflow: hidden;
+    margin-top: -6px;
+}
 .topnav
 {
     text-align: center;
