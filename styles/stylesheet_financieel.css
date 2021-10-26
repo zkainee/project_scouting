@@ -42,6 +42,7 @@ body
 }
 .topnav a
 {
+    /* Navigation bar blocks */
     list-style: none;
     margin: 0 auto;
     border-left: 2px solid #3ca0e7;
@@ -53,6 +54,7 @@ body
 }
 .topnav a:hover
 {
+    /* Kleur hover over block */
     color: #617cb6;
 }
 table
