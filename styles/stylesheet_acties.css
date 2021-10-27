@@ -57,3 +57,11 @@ body
     /* Kleur hover over block */
     color: #617cb6;
 }
+.acties1
+{
+    float: right;
+    margin-right: 15px;
+    width: 540px;
+    height: 360px;
+    border: solid;
+}

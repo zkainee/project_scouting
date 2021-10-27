@@ -57,3 +57,28 @@ body
     /* Kleur hover over block */
     color: #617cb6;
 }
+.rangeninfo
+{
+    font-weight: bold;
+}
+.rangenfoto1, .rangenfoto2, .rangenfoto3, .rangenfoto4
+{
+    display: block;
+    margin: auto;
+    border: 1px solid;
+}
+.rangenfoto1, .rangenfoto4
+{
+    width: 256px;
+    height: 256px;
+}
+.rangenfoto2
+{
+    width: 266px;
+    height: 200px;
+}
+.rangenfoto3
+{
+    width: 256px;
+    height: 192px;
+}
