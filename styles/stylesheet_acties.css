@@ -10,6 +10,7 @@
 }
 body
 {
+    background-image: url(/images/background.jpeg) no-repeat fixed;
     font-family: Montserrat;
 }
 .header
@@ -58,6 +59,7 @@ body
 {
     float: right;
     margin-right: 15px;
+    margin-bottom: 15px;
     width: 540px;
     height: 360px;
     border: solid;

@@ -10,6 +10,7 @@
 }
 body
 {
+    background-image: url(/images/background.jpeg);
     background-size: cover;
     font-family: Montserrat;
 }
@@ -68,10 +69,19 @@ body
 }
 .scoutingfoto1, .scoutingfoto2
 {
-    width: 667px;
-    height: 443px;
-    margin-left: 35px;
-    margin-right: 35px;
+    width: 554px;
+    height: 354px;
+    margin-left: 60px;
+    margin-right: 60px;
     margin-top: 10px;
     border: 5px solid #d8b9b9;
+}
+.markup
+{
+    font-weight: bold;
+}
+figure
+{
+    text-align: center;
+    font-style: italic;
 }

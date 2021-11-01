@@ -10,6 +10,7 @@
 }
 body
 {
+    background-image: url(/images/background.jpeg) no-repeat fixed;
     font-family: Montserrat;
 }
 .header
@@ -59,4 +60,14 @@ table
     border-collapse: collapse;
     text-align: left;
     width: 100px;
+}
+.FotoFinancieel
+{
+    width: 350px;
+    height: 350px;
+    border: solid;
+}
+figcaption
+{
+    font-style: italic;
 }

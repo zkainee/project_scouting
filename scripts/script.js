@@ -4,7 +4,7 @@
     Subject: Website Scouting Jan van Hoof
 */
 
-// Berekent leeftijd Scouting Jan van Hoof  vanaf het jaar 1980
+// Berekent leeftijd Scouting Jan van Hoof vanaf het jaar 1980
 var yearCreated = 1980;
 var d = new Date();
 var n = d.getFullYear();
@@ -19,3 +19,10 @@ function getAge(year)
 var calulatedAge = getAge(yearCreated);
 
 document.getElementById("year_age").innerHTML = calulatedAge;
+
+// Authenticatie systeem om bots tegen te gaan
+var choice = confirm("Welkom\nVerifieer uw identiteit door op 'OK' te klikken");
+if (choice != true)
+{
+    location.href="pages/notverified.html";
+}
