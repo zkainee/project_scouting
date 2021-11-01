@@ -3,10 +3,6 @@
     Date: 08-10-2021
     Subject: Website Scouting Jan van Hoof
 */
-html
-{
-    scroll-behavior: smooth;
-}
 @font-face 
 {
     font-family: Montserrat;
@@ -27,7 +23,6 @@ body
 {
     /* URL image*/
     background-image: url(/images/scouting_background_header.jpg);
-    /*min-height: 380px;*/
 
     /* Gecentreerd en positie en grootte image */
     background-position: center;
@@ -55,56 +50,17 @@ body
     text-decoration: none;
     text-align: center;
 }
-.topnav a:last-of-type
-{
-    /* Navigation bar blocks */
-    border-right: 2px solid #3ca0e7;
-} 
-
-.topnav a:first-of-type
-{
-    /* Navigation bar blocks */
-    border-left: 2px solid #3ca0e7;
-}
 .topnav a:hover
 {
     /* Kleur hover over block */
     color: #617cb6;
 }
-.rangeninfo
+.acties1
 {
-    font-weight: bold;
-}
-.rangenfoto1, .rangenfoto2, .rangenfoto3, .rangenfoto4
-{
-    display: block;
-    margin: auto;
+    float: right;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 540px;
+    height: 360px;
     border: solid;
-}
-.rangenfoto1, .rangenfoto4
-{
-    width: 256px;
-    height: 256px;
-}
-.rangenfoto2
-{
-    width: 266px;
-    height: 200px;
-}
-.rangenfoto3
-{
-    width: 256px;
-    height: 192px;
-}
-figcaption
-{
-    font-style: italic;
-}
-a:hover
-{
-    color: turquoise;
-}
-a:visited
-{
-    color: gray;
 }

@@ -1,0 +1,16 @@
+/*
+    Authors: Kaine van Ommeren, Elise Rijkers & Nick de Rooij
+    Date: 08-10-2021
+    Subject: Website Scouting Jan van Hoof
+*/
+@font-face 
+{
+    font-family: Montserrat;
+    src: url(/fonts/Montserrat-Regular.ttf);
+}
+body
+{
+    background-image: url(/images/background.jpeg);
+    background-size: cover;
+    font-family: Montserrat;
+}

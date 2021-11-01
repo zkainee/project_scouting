@@ -3,10 +3,6 @@
     Date: 08-10-2021
     Subject: Website Scouting Jan van Hoof
 */
-html
-{
-    scroll-behavior: smooth;
-}
 @font-face 
 {
     font-family: Montserrat;
@@ -14,7 +10,8 @@ html
 }
 body
 {
-    background-image: url(/images/background.jpeg) no-repeat fixed;
+    background-image: url(/images/background.jpeg);
+    background-size: cover;
     font-family: Montserrat;
 }
 .header
@@ -36,6 +33,8 @@ body
 }
 .logo-image
 {
+    /*width: 46px;
+    height: 46px;*/
     overflow: hidden;
     margin-top: -6px;
 }
@@ -45,7 +44,7 @@ body
 }
 .topnav a
 {
-    /* Navigatie bar blocks */
+    /* Navigation bar blocks */
     list-style: none;
     margin: 0 auto;
     border-left: 2px solid #3ca0e7;
@@ -55,56 +54,34 @@ body
     text-decoration: none;
     text-align: center;
 }
-.topnav a:last-of-type
-{
-    /* Navigation bar blocks */
-    border-right: 2px solid #3ca0e7;
-} 
-
-.topnav a:first-of-type
-{
-    /* Navigation bar blocks */
-    border-left: 2px solid #3ca0e7;
-}
 .topnav a:hover
 {
     /* Kleur hover over block */
     color: #617cb6;
 }
-.rangeninfo
+.footer
+{
+    position: fixed;
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+    padding: 14px;
+    color: black;
+}
+.scoutingfoto1, .scoutingfoto2
+{
+    width: 554px;
+    height: 354px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 10px;
+    border: 5px solid #d8b9b9;
+}
+.markup
 {
     font-weight: bold;
 }
-.rangenfoto1, .rangenfoto2, .rangenfoto3, .rangenfoto4
+figure
 {
-    display: block;
-    margin: auto;
-    border: solid;
-}
-.rangenfoto1, .rangenfoto4
-{
-    width: 256px;
-    height: 256px;
-}
-.rangenfoto2
-{
-    width: 266px;
-    height: 200px;
-}
-.rangenfoto3
-{
-    width: 256px;
-    height: 192px;
-}
-figcaption
-{
+    text-align: center;
     font-style: italic;
-}
-a:hover
-{
-    color: turquoise;
-}
-a:visited
-{
-    color: gray;
 }

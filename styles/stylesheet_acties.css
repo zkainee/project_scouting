@@ -3,6 +3,10 @@
     Date: 08-10-2021
     Subject: Website Scouting Jan van Hoof
 */
+html
+{
+    scroll-behavior: smooth;
+}
 @font-face 
 {
     font-family: Montserrat;
@@ -50,14 +54,29 @@ body
     text-decoration: none;
     text-align: center;
 }
+.topnav a:last-of-type
+{
+    /* Navigation bar blocks */
+    border-right: 2px solid #3ca0e7;
+} 
+
+.topnav a:first-of-type
+{
+    /* Navigation bar blocks */
+    border-left: 2px solid #3ca0e7;
+}
 .topnav a:hover
 {
     /* Kleur hover over block */
     color: #617cb6;
 }
+body
+{
+    text-align: right;
+}
 .acties1
 {
-    float: right;
+    float: left;
     margin-right: 15px;
     margin-bottom: 15px;
     width: 540px;

@@ -5,6 +5,10 @@
 */
 
 // Berekent leeftijd Scouting Jan van Hoof vanaf het jaar 1980
+var yearCreated = 1980;
+var d = new Date();
+var n = d.getFullYear();
+
 function getAge(year)
 {
     var currentDate = new Date();
@@ -12,20 +16,6 @@ function getAge(year)
     age = currentYear - year;
     return age;
 }
-
-function vraagnaam()
-{
-var user_name = prompt("Wat is je naam?");
-console.log("Hallo " + user_name);
-var user_age = prompt("Wat is je leeftijd");
-console.log("U bent " + user_age + "jaren jong");
-
-}
-
-var yearCreated = 1980;
-var d = new Date();
-var n = d.getFullYear();
-
 var calulatedAge = getAge(yearCreated);
 
 document.getElementById("year_age").innerHTML = calulatedAge;
@@ -36,7 +26,3 @@ if (choice != true)
 {
     location.href="pages/notverified.html";
 }
-
-logo = document.getElementById("logo");
-logo.onclick = vraagnaam;
-
