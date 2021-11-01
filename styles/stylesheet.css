@@ -10,6 +10,7 @@
 }
 body
 {
+    background-size: cover;
     font-family: Montserrat;
 }
 .header
@@ -61,7 +62,7 @@ body
 {
     position: fixed;
     text-align: center;
-    background-color: #F1F1F1;
+    background-color: rgb(241, 241, 241);
     padding: 14px;
     color: black;
 }
@@ -72,5 +73,5 @@ body
     margin-left: 35px;
     margin-right: 35px;
     margin-top: 10px;
-    border: 5px solid #000000;
+    border: 5px solid #d8b9b9;
 }

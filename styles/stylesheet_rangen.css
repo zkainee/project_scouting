@@ -31,8 +31,6 @@ body
 }
 .logo-image
 {
-    /*width: 46px;
-    height: 46px;*/
     overflow: hidden;
     margin-top: -6px;
 }
@@ -42,7 +40,7 @@ body
 }
 .topnav a
 {
-    /* Navigation bar blocks */
+    /* Navigatie bar blocks */
     list-style: none;
     margin: 0 auto;
     border-left: 2px solid #3ca0e7;
@@ -65,7 +63,7 @@ body
 {
     display: block;
     margin: auto;
-    border: 1px solid;
+    border: solid;
 }
 .rangenfoto1, .rangenfoto4
 {
