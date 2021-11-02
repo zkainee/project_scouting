@@ -47,6 +47,7 @@ function questions()
     console.log(age_question);
 }
 
+/* Variable die berekent hoeveel jaar de scouting is vanaf het jaartal 1980 */
 var yearCreated = 1980;
 var d = new Date();
 var n = d.getFullYear();
