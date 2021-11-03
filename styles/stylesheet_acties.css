@@ -10,11 +10,11 @@ html
 @font-face 
 {
     font-family: Montserrat;
-    src: url(/fonts/Montserrat-Regular.ttf);
+    src: url(../fonts/Montserrat-Regular.ttf);
 }
 body
 {
-    background-image: url(/images/background.jpeg) no-repeat fixed;
+    background-image: url(../images/background.jpeg) no-repeat fixed;
     font-family: Montserrat;
 }
 .header
@@ -26,7 +26,7 @@ body
 .header_background
 {
     /* URL image*/
-    background-image: url(/images/scouting_background_header.jpg);
+    background-image: url(../images/scouting_background_header.jpg);
 
     /* Gecentreerd en positie en grootte image */
     background-position: center;
