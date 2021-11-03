@@ -26,16 +26,24 @@ function questions()
     if (age_question < 11) 
     {
         document.getElementById("age_text").innerHTML = "Je hoort bij de Welpen!";
-    } else if (age_question < 15) 
+    } 
+    else if (age_question < 15) 
     {
         document.getElementById("age_text").innerHTML = "Je hoort bij de Scouts!";
-    } else if (age_question < 18) 
+    } 
+    else if (age_question < 18) 
     {
         document.getElementById("age_text").innerHTML = "Je hoort bij de Explorers!";  
-    } else if (age_question < 25) 
+    } 
+    else if (age_question < 25) 
     {
         document.getElementById("age_text").innerHTML = "Je hoort bij de Pivo's!";
-    } else 
+    } 
+    else if (age_question > 25) 
+    {
+        document.getElementById("age_text").innerHTML = "Je hoort bij de stam!";
+    } 
+    else 
     {
         document.getElementById("age_text").innerHTML = "Foutief antwoord";
     }
