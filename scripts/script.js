@@ -25,23 +25,23 @@ function questions()
     /* Bijv. iemand die 9 is komt bij de Welpen en iemand die 16 is komt bij de Scouts */
     if (age_question < 11) 
     {
-        document.getElementById("age_text").innerHTML = "Je hoort bij de Welpen!";
+        document.getElementById("age_text").innerHTML = name_question + ',' + " je hoort bij de Welpen!";
     } 
     else if (age_question < 15) 
     {
-        document.getElementById("age_text").innerHTML = "Je hoort bij de Scouts!";
+        document.getElementById("age_text").innerHTML = name_question + ',' + " je hoort bij de Scouts!";
     } 
     else if (age_question < 18) 
     {
-        document.getElementById("age_text").innerHTML = "Je hoort bij de Explorers!";  
+        document.getElementById("age_text").innerHTML = name_question + ',' + " je hoort bij de Explorers!";  
     } 
     else if (age_question < 25) 
     {
-        document.getElementById("age_text").innerHTML = "Je hoort bij de Pivo's!";
+        document.getElementById("age_text").innerHTML = name_question + ',' + " je hoort bij de Pivo's!";
     } 
     else if (age_question > 25) 
     {
-        document.getElementById("age_text").innerHTML = "Je hoort bij de stam!";
+        document.getElementById("age_text").innerHTML = name_question + ',' + " je hoort bij de stam!";
     } 
     else 
     {
